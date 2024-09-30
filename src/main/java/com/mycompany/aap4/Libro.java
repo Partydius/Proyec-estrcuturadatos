@@ -9,5 +9,18 @@ package com.mycompany.aap4;
  * @author avill
  */
 public class Libro {
+    private String genero;
+
+    public Libro(String genero) {
+        this.genero = genero;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
     
 }

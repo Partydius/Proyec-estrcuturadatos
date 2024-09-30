@@ -9,5 +9,18 @@ package com.mycompany.aap4;
  * @author avill
  */
 public class Revista {
+    private String volumen;
+
+    public Revista(String volumen) {
+        this.volumen = volumen;
+    }
+
+    public String getVolumen() {
+        return volumen;
+    }
+
+    public void setVolumen(String volumen) {
+        this.volumen = volumen;
+    }
     
 }

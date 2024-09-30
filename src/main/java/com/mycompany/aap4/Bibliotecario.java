@@ -9,9 +9,21 @@ package com.mycompany.aap4;
  * @author avill
  */
 public class Bibliotecario extends Usuario {
+    private boolean administrador;
 
-    public Bibliotecario(String nombre, String dni, String codigo) {
+    public Bibliotecario(boolean administrador, String nombre, String dni, String codigo) {
         super(nombre, dni, codigo);
+        this.administrador = administrador;
     }
+
+    public boolean isAdministrador() {
+        return administrador;
+    }
+
+    public void setAdministrador(boolean administrador) {
+        this.administrador = administrador;
+    }
+    
+    
     
 }
